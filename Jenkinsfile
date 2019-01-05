@@ -20,4 +20,5 @@ pipeline {
                 build job: 'deploy-to-stagin'
             }
         }
+    }
 }
