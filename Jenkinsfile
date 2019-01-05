@@ -34,7 +34,7 @@ pipeline {
                 }
 
                 failure {
-                    echo 'Deployment failed'
+                    echo 'Deployment failed, try again'
                 }
             }
         }
